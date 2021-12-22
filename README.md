@@ -2,7 +2,7 @@
 
 Simple React Shopping Cart
 
-# Clone Project by
+## Clone Project by
 
 Downloading .zip file or clone by executing below command 
 ```

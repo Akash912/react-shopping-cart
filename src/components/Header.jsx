@@ -8,6 +8,7 @@ import {
 } from "contexts/cart";
 import { CommonDispatchContext, setSearchKeyword } from "contexts/common";
 import CartPreview from "components/CartPreview";
+import logo from './test.png';
 
 const Header = (props) => {
   const { items: cartItems, isCartOpen } = useContext(CartStateContext);
@@ -34,7 +35,7 @@ const Header = (props) => {
           <Link to="/">
             <img
               className="logo"
-              src="https://res.cloudinary.com/sivadass/image/upload/v1493547373/dummy-logo/Veggy.png"
+              src={logo}
               alt="Veggy Brand Logo"
             />
           </Link>
